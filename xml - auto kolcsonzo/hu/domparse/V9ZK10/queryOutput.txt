@@ -1,0 +1,222 @@
+----------Vásárlók----------
+<Vasarlo>
+  <Email>jane.smith456@example.com</Email>
+  <Nev>Kovacs Peter</Nev>
+  <Cim>Magyarorszag, 1234 Budapest, Kossuth utca 10</Cim>
+  <Telefon>
+    <Number>0630-987-6543</Number>
+    <Number>0630-987-6453</Number>
+  </Telefon>
+</Vasarlo>
+<Vasarlo>
+  <Email>john.doe456@example.co.uk</Email>
+  <Nev>Nagy Anna</Nev>
+  <Cim>Magyarorszag, 5678 Szeged, Rakoczi ut 5</Cim>
+  <Telefon>
+    <Number>0620-765-4321</Number>
+    <Number>0620-765-0000</Number>
+  </Telefon>
+</Vasarlo>
+<Vasarlo>
+  <Email>mark.johnson789@example.co.uk</Email>
+  <Nev>Kiss Eva</Nev>
+  <Cim>Magyarorszag, 9876 Debrecen, Petofi ter 3</Cim>
+  <Telefon>
+    <Number>0612-345-6789</Number>
+    <Number>0630-987-6543</Number>
+  </Telefon>
+</Vasarlo>
+
+
+----------Autós cégek----------
+<AutosCeg>
+  <CegKod>11</CegKod>
+  <Nev>AutaPlusz Kft.</Nev>
+  <DolgozokSzama>15</DolgozokSzama>
+</AutosCeg>
+<AutosCeg>
+  <CegKod>12</CegKod>
+  <Nev>Autovilag Bt.</Nev>
+  <DolgozokSzama>10</DolgozokSzama>
+</AutosCeg>
+<AutosCeg>
+  <CegKod>13</CegKod>
+  <Nev>Kocsis Kft.</Nev>
+  <DolgozokSzama>20</DolgozokSzama>
+</AutosCeg>
+
+
+----------Autós adatok----------
+<AutosAdatok>
+  <ForgalmiKod>21</ForgalmiKod>
+  <CegKod>11</CegKod>
+  <Ar>45000</Ar>
+  <Km>78900</Km>
+  <Statusz>uj</Statusz>
+</AutosAdatok>
+<AutosAdatok>
+  <ForgalmiKod>22</ForgalmiKod>
+  <CegKod>11</CegKod>
+  <Ar>55000</Ar>
+  <Km>65400</Km>
+  <Statusz>hasznalt</Statusz>
+</AutosAdatok>
+<AutosAdatok>
+  <ForgalmiKod>23</ForgalmiKod>
+  <CegKod>13</CegKod>
+  <Ar>60000</Ar>
+  <Km>89000</Km>
+  <Statusz>hasznalt</Statusz>
+</AutosAdatok>
+
+
+----------Autós típusok----------
+<AutosTipus>
+  <TipusKod>31</TipusKod>
+  <ForgalmiKod>21</ForgalmiKod>
+  <GyartasiEv>2022</GyartasiEv>
+  <Marka>Toyota</Marka>
+  <Nev>Corolla Hybrid</Nev>
+</AutosTipus>
+<AutosTipus>
+  <TipusKod>32</TipusKod>
+  <ForgalmiKod>22</ForgalmiKod>
+  <GyartasiEv>2021</GyartasiEv>
+  <Marka>Volkswagen</Marka>
+  <Nev>Golf GTI</Nev>
+</AutosTipus>
+<AutosTipus>
+  <TipusKod>33</TipusKod>
+  <ForgalmiKod>23</ForgalmiKod>
+  <GyartasiEv>2020</GyartasiEv>
+  <Marka>Ford</Marka>
+  <Nev>Focus Titanium</Nev>
+</AutosTipus>
+
+
+----------Vásárlások----------
+<Vasarlas>
+  <Datumkod>41</Datumkod>
+  <CegKod>11</CegKod>
+  <VasarloKod>01</VasarloKod>
+  <KezdDatum>2023-01-15</KezdDatum>
+</Vasarlas>
+<Vasarlas>
+  <Datumkod>42</Datumkod>
+  <CegKod>12</CegKod>
+  <VasarloKod>02</VasarloKod>
+  <KezdDatum>2023-02-28</KezdDatum>
+</Vasarlas>
+<Vasarlas>
+  <Datumkod>43</Datumkod>
+  <CegKod>13</CegKod>
+  <VasarloKod>02</VasarloKod>
+  <KezdDatum>2023-03-10</KezdDatum>
+</Vasarlas>
+
+
+----------Számlázások ami nagyobb mint 60.000----------
+<Számlázás>
+  <Számlakód>52</Számlakód>
+  <VásárlóKód>02</VásárlóKód>
+  <SzámlaDátum>2023-03-01</SzámlaDátum>
+  <Végösszeg>60000</Végösszeg>
+  <Jogsiszám>65432</Jogsiszám>
+</Számlázás>
+<Számlázás>
+  <Számlakód>53</Számlakód>
+  <VásárlóKód>03</VásárlóKód>
+  <SzámlaDátum>2023-04-12</SzámlaDátum>
+  <Végösszeg>70000</Végösszeg>
+  <Jogsiszám>76543</Jogsiszám>
+</Számlázás>
+
+
+----------Autós adatok és az azokhoz tartozó típusok----------
+<AutósAdatok>
+  <ForgalmiKód>21</ForgalmiKód>
+  <CégKód>11</CégKód>
+  <Ár>45000</Ár>
+  <KMóra>78900</KMóra>
+  <Státusz>uj</Státusz>
+  <GyártásiÉv>2022</GyártásiÉv>
+  <Márka>Toyota</Márka>
+  <Név>Corolla Hybrid</Név>
+</AutósAdatok>
+<AutósAdatok>
+  <ForgalmiKód>22</ForgalmiKód>
+  <CégKód>11</CégKód>
+  <Ár>55000</Ár>
+  <KMóra>65400</KMóra>
+  <Státusz>hasznalt</Státusz>
+  <GyártásiÉv>2021</GyártásiÉv>
+  <Márka>Volkswagen</Márka>
+  <Név>Golf GTI</Név>
+</AutósAdatok>
+<AutósAdatok>
+  <ForgalmiKód>23</ForgalmiKód>
+  <CégKód>13</CégKód>
+  <Ár>60000</Ár>
+  <KMóra>89000</KMóra>
+  <Státusz>hasznalt</Státusz>
+  <GyártásiÉv>2020</GyártásiÉv>
+  <Márka>Ford</Márka>
+  <Név>Focus Titanium</Név>
+</AutósAdatok>
+
+
+----------Autós cégek és az azokhoz tartozó adatok----------
+<AutósCég>
+  <CégKód>11</CégKód>
+  <CégNév>AutaPlusz Kft.</CégNév>
+  <Ár>45000</Ár>
+  <KMóra>78900</KMóra>
+  <Státusz>uj</Státusz>
+</AutósCég>
+<AutósCég>
+  <CégKód>11</CégKód>
+  <CégNév>AutaPlusz Kft.</CégNév>
+  <Ár>55000</Ár>
+  <KMóra>65400</KMóra>
+  <Státusz>hasznalt</Státusz>
+</AutósCég>
+<AutósCég>
+  <CégKód>13</CégKód>
+  <CégNév>Kocsis Kft.</CégNév>
+  <Ár>60000</Ár>
+  <KMóra>89000</KMóra>
+  <Státusz>hasznalt</Státusz>
+</AutósCég>
+
+
+----------Vásárlók és az azokhoz tartozó vásárlások----------
+<Vásárló>
+  <VásárlóKód>01</VásárlóKód>
+  <Név>Kovacs Peter</Név>
+  <Email>jane.smith456@example.com</Email>
+  <Vásárlás>
+    <Dátumkód>41</Dátumkód>
+    <CégKód>11</CégKód>
+    <ElsőVásárlás>2023-01-15</ElsőVásárlás>
+  </Vásárlás>
+</Vásárló>
+<Vásárló>
+  <VásárlóKód>02</VásárlóKód>
+  <Név>Nagy Anna</Név>
+  <Email>john.doe456@example.co.uk</Email>
+  <Vásárlás>
+    <Dátumkód>42</Dátumkód>
+    <CégKód>12</CégKód>
+    <ElsőVásárlás>2023-02-28</ElsőVásárlás>
+  </Vásárlás>
+</Vásárló>
+<Vásárló>
+  <VásárlóKód>02</VásárlóKód>
+  <Név>Nagy Anna</Név>
+  <Email>john.doe456@example.co.uk</Email>
+  <Vásárlás>
+    <Dátumkód>43</Dátumkód>
+    <CégKód>13</CégKód>
+    <ElsőVásárlás>2023-03-10</ElsőVásárlás>
+  </Vásárlás>
+</Vásárló>
